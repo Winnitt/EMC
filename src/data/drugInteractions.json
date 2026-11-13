@@ -1,0 +1,50 @@
+[
+  {
+    "id": "WARFARIN_NSAIDS",
+    "pair": ["Warfarin / Acenocoumarol", "Aspirin / NSAIDs (Brufen, Combiflam)"],
+    "group_a": ["warfarin", "acenocoumarol", "acitrom"],
+    "group_b": ["aspirin", "ibuprofen", "diclofenac", "ecosprin", "disprin", "brufen", "combiflam", "voveran"],
+    "severity": "CRITICAL",
+    "risk": "Severe GI hemorrhage and internal bleeding caused by compounding antiplatelet and anticoagulant effects."
+  },
+  {
+    "id": "METFORMIN_CONTRAST",
+    "pair": ["Metformin", "Iodinated Contrast / Alcohol"],
+    "group_a": ["metformin", "glycomet", "obimet", "cetapin"],
+    "group_b": ["iodinated contrast", "contrast", "alcohol"],
+    "severity": "CRITICAL",
+    "risk": "Fatal lactic acidosis risk. Metformin must be held 48 hours prior to IV radiographic contrast procedures."
+  },
+  {
+    "id": "SILDENAFIL_NITRATES",
+    "pair": ["Sildenafil / Tadalafil", "Nitrates (Sorbitrate / Monit)"],
+    "group_a": ["sildenafil", "tadalafil", "manforce", "suhagra", "megalis"],
+    "group_b": ["nitroglycerin", "isosorbide dinitrate", "isosorbide mononitrate", "sorbitrate", "monit", "angispan"],
+    "severity": "FATAL",
+    "risk": "Severe refractory hypotension and fatal cardiovascular collapse."
+  },
+  {
+    "id": "TRAMADOL_SSRI",
+    "pair": ["Tramadol", "SSRIs (Escitalopram, Sertraline)"],
+    "group_a": ["tramadol", "tramazac", "ultracet"],
+    "group_b": ["escitalopram", "sertraline", "fluoxetine", "paroxetine", "nexito", "cipralex", "daxid"],
+    "severity": "CRITICAL",
+    "risk": "High incidence of Serotonin Syndrome and significant reduction of seizure threshold."
+  },
+  {
+    "id": "TELMISARTAN_POTASSIUM",
+    "pair": ["ACE Inhibitors / ARBs (Telmisartan)", "Potassium Supplements / Spironolactone"],
+    "group_a": ["telmisartan", "ramipril", "losartan", "telma", "telmikind", "cardace"],
+    "group_b": ["spironolactone", "aldactone", "potclor", "potassium chloride"],
+    "severity": "HIGH",
+    "risk": "Life-threatening hyperkalemia leading to cardiac arrhythmias and arrest."
+  },
+  {
+    "id": "METHOTREXATE_NSAID",
+    "pair": ["Methotrexate", "Amoxyclav / NSAIDs (Voveran, Brufen)"],
+    "group_a": ["methotrexate", "folitrax"],
+    "group_b": ["amoxicillin", "augmentin", "moxikind-cv", "diclofenac", "voveran", "ibuprofen"],
+    "severity": "CRITICAL",
+    "risk": "Reduced renal clearance of methotrexate leading to bone marrow toxicity."
+  }
+]

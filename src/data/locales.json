@@ -1,0 +1,72 @@
+{
+  "en": {
+    "title": "EMERGENCY MEDICAL CARD",
+    "blood_group": "BLOOD GROUP",
+    "critical_allergies": "CRITICAL ALLERGIES",
+    "medical_conditions": "MEDICAL CONDITIONS",
+    "active_medications": "ACTIVE MEDICATIONS",
+    "emergency_contacts": "EMERGENCY CONTACTS",
+    "call_primary": "CALL PRIMARY CONTACT",
+    "bystander_instruction": "Show this screen or call the number below immediately."
+  },
+  "hi": {
+    "title": "आपातकालीन मेडिकल कार्ड",
+    "blood_group": "रक्त समूह (ब्लड ग्रुप)",
+    "critical_allergies": "गंभीर एलर्जी",
+    "medical_conditions": "बीमारी / स्वास्थ्य स्थिति",
+    "active_medications": "वर्तमान दवाएं",
+    "emergency_contacts": "आपातकालीन संपर्क",
+    "call_primary": "प्राथमिक संपर्क को कॉल करें",
+    "bystander_instruction": "यह स्क्रीन डॉक्टर/अस्पताल को दिखाएं या तुरंत नीचे दिए नंबर पर कॉल करें।"
+  },
+  "mr": {
+    "title": "तातडीचे वैद्यकीय कार्ड",
+    "blood_group": "रक्तगट (Blood Group)",
+    "critical_allergies": "तीव्र ॲलर्जी",
+    "medical_conditions": "वैद्यकीय स्थिती / आजार",
+    "active_medications": "सध्या सुरू असलेली औषधे",
+    "emergency_contacts": "तातडीचे संपर्क क्रमांक",
+    "call_primary": "मुख्य संपर्काला कॉल करा",
+    "bystander_instruction": "हा स्क्रीन डॉक्टर/रुग्णालयाला दाखवा किंवा खालील क्रमांकावर त्वरित कॉल करा."
+  },
+  "ta": {
+    "title": "அவசர மருத்துவ அட்டை",
+    "blood_group": "இரத்த வகை (Blood Group)",
+    "critical_allergies": "தீவிர ஒவ்வாமை (Allergies)",
+    "medical_conditions": "மருத்துவ நிலைமைகள்",
+    "active_medications": "தற்போது உட்கொள்ளும் மருந்துகள்",
+    "emergency_contacts": "அவசர தொடர்புகள்",
+    "call_primary": "அவசர எண்ணை அழைக்கவும்",
+    "bystander_instruction": "இந்தத் திரையை மருத்துவரிடம் காட்டவும் அல்லது கீழே உள்ள எண்ணை உடனடியாக அழைக்கவும்."
+  },
+  "bn": {
+    "title": "জরুরী মেডিকেল কার্ড",
+    "blood_group": "রক্তের গ্রুপ (Blood Group)",
+    "critical_allergies": "মারাত্মক অ্যালার্জি",
+    "medical_conditions": "বর্তমান শারীরিক অবস্থা",
+    "active_medications": "বর্তমান ওষুধসমূহ",
+    "emergency_contacts": "জরুরী যোগাযোগ",
+    "call_primary": "প্রাথমিক পরিচিতিকে কল করুন",
+    "bystander_instruction": "এই স্ক্রিনটি ডাক্তারকে দেখান বা অবিলম্বে নিচের নম্বরে কল করুন।"
+  },
+  "te": {
+    "title": "అత్యవసర వైద్య కార్డు",
+    "blood_group": "రక్త వర్గం (Blood Group)",
+    "critical_allergies": "తీవ్రమైన అలెర్జీలు",
+    "medical_conditions": "ఆరోగ్య సమస్యలు",
+    "active_medications": "ప్రస్తుత మందులు",
+    "emergency_contacts": "అత్యవసర పరిచయాలు",
+    "call_primary": "ప్రధాన పరిచయానికి కాల్ చేయండి",
+    "bystander_instruction": "ఈ స్క్రీన్‌ను డాక్టర్‌కు చూపించండి లేదా వెంటనే క్రింది నంబర్‌కు కాల్ చేయండి."
+  },
+  "ml": {
+    "title": "അടിയന്തര മെഡിക്കൽ കാർഡ്",
+    "blood_group": "രക്തഗ്രൂപ്പ് (Blood Group)",
+    "critical_allergies": "ഗുരുതരമായ അലർജികൾ",
+    "medical_conditions": "ആരോഗ്യ പ്രശ്നങ്ങൾ / രോഗങ്ങൾ",
+    "active_medications": "കഴിക്കുന്ന മരുന്നുകൾ",
+    "emergency_contacts": "അടിയന്തര കോൺടാക്റ്റുകൾ",
+    "call_primary": "പ്രധാന കോൺടാക്റ്റിനെ വിളിക്കുക",
+    "bystander_instruction": "ഈ സ്ക്രീൻ ഡോക്ടറെ കാണിക്കുക അല്ലെങ്കിൽ താഴെയുള്ള നമ്പറിലേക്ക് ഉടൻ വിളിക്കുക."
+  }
+}

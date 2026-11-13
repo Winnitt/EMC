@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --g1: #A84B06;
+    --g2: #DC7009;
+    --g3: #F0943C;
+    --g4: #F8C07C;
+    --g5: #FEF2E0;
+
+    --ora: #DC7009;
+    --ora-d: #A84B06;
+    --ora-l: #F5B870;
+
+    --green: #34C759;
+    --red: #FF3B30;
+    --red-d: #C0392B;
+    --amber: #FF9500;
+    --teal: #0AA9BF;
+    --purple: #7B1FA2;
+
+    --dk: #1A0E06;
+    --mid: #5C4030;
+    --soft: #A08060;
+
+    --surf: #FEF8F3;
+    --card: #FFFFFF;
+    --bdr: rgba(220,160,80,.18);
+    --sh: 0 2px 14px rgba(180,80,8,.08), 0 1px 3px rgba(0,0,0,.05);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #FEF8F3;
+    color: #1A0E06;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Senior Citizen Accessibility & Large Text Support */
+  body.senior-mode-active {
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.015em;
+  }
+}
+
+/* Senior Citizen Mode Specific Overrides */
+.senior-mode .btn-touch {
+  min-height: 52px;
+}
+
+.senior-mode .big-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.senior-mode .big-text-title {
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.senior-mode .big-text-body {
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+/* View Header Gradients */
+.gh-card {
+  background: linear-gradient(172deg, #A84B06 0%, #DC7009 38%, #F0943C 65%, #F8C07C 85%, #FEF2E0 100%);
+}
+.gh-meds {
+  background: linear-gradient(172deg, #7A2E04 0%, #A84B06 48%, #DC7009 100%);
+}
+.gh-reps {
+  background: linear-gradient(172deg, #0D5C3D 0%, #1A8A5A 45%, #52B87A 80%, #B0DEC4 100%);
+}
+.gh-docs {
+  background: linear-gradient(172deg, #3B1261 0%, #5E258D 45%, #8A4CBF 80%, #D8BEF5 100%);
+}
+.gh-sets {
+  background: linear-gradient(172deg, #2D1B69 0%, #553C9A 45%, #7C5CBF 80%, #C4B5E8 100%);
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7); }
+  50% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255, 59, 48, 0); }
+}
+
+.sos-pulse {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+@keyframes scanLine {
+  0% { top: 10%; opacity: 0.8; }
+  50% { top: 85%; opacity: 1; }
+  100% { top: 10%; opacity: 0.8; }
+}
+
+.scan-laser {
+  animation: scanLine 2s infinite ease-in-out;
+}
+
+/* Hide scrollbar for clean app experience */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

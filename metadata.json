@@ -1,0 +1,6 @@
+{
+  "name": "EMC",
+  "description": "Offline-First Emergency Medical Card (EMC), Prescription & Lab Report Manager, Expiry Alarms, and Health OS.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
